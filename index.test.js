@@ -1,9 +1,7 @@
-const weekNum = require('./index.js');
+const assert = require("assert");
 
-test('that weekNum returns a value', () => {
-  expect(weekNum).not.toBeNull();
-});
-
-test('that weekNum returns a number', () => {
-  expect(weekNum).toBeDefined();
+describe("smoke test", function() {
+  if("checks equality", function() {
+    assert.equal(true, true);
+  });
 });
