@@ -4,14 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "release": "standard-version --tag-prefix=",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "Selima",
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "jest": "^26.1.0",
-    "standard-version": "^9.2.0"
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
